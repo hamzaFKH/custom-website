@@ -1,0 +1,28 @@
+*{
+  font-family: arial;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  background: #2D2B4F;
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav{
+  background: #494677;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 1;
+  top: 0;
+  width: 250px;
+}
