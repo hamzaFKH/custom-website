@@ -1,5 +1,6 @@
 *{
   font-family: arial;
+  color: white;
 }
 
 body{
@@ -22,6 +23,7 @@ body{
   position: absolute;
   right: 25px;
   top: 0px;
+  cursor: pointer;
   font-size: 18pt;
 }
 
@@ -29,9 +31,10 @@ body{
   background: #494677;
   height: 100%;
   position: fixed;
-  padding: 25px;
+  padding-top: 25px;
   display: block;
   z-index: 1;
   top: 0;
-  width: 250px;
+  width: 0px;
+  transition: 0.5s;
 }
